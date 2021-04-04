@@ -43,11 +43,11 @@ class StudentController {
 	}
 	
 	getStudentName(name) {
-		this.studentModel.getName();
+		return this.studentModel.getName();
 	}
 	
 	setStudentRollNo(rollNo) {
-		this.studentModel.setRollNo(rollNo);
+		return this.studentModel.setRollNo(rollNo);
 	}
 	
 	getStudentRollNo(rollNo) {
